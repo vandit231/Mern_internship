@@ -1,0 +1,47 @@
+body{
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.vertical{
+    width: 50%;
+    display: flex;
+    background-color:gray;
+}
+.home ,.java ,.html ,.css{
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    text-align: center; 
+    color: blue;
+    font-size: 20px;
+    font-weight: bold;
+    transition: background-color 0.6s ease-in 0s,color 0.6 ease-in 0s;
+
+}
+.home:hover{
+    background-color:lightblue;
+    cursor: pointer;
+    color: coral;
+}
+.java:hover{
+    background-color: lightblue;
+    cursor: pointer;
+    color: coral;
+}
+.html:hover{
+    background-color: lightblue;
+    cursor: pointer;
+    color: coral;
+}
+.css:hover{
+    background-color: lightblue;
+    cursor: pointer;
+    color: coral;
+}
+.horizontal{
+    display: flex;
+    flex-direction: column;
+    background-color:gray;
+    width: 10%;
+}

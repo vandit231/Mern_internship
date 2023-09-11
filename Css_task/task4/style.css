@@ -1,0 +1,60 @@
+.c-green{
+    position: relative;
+    right: 40px;
+    background-color: green;
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transition: right 0.5s ease-in-out 0s;
+
+}
+.c-blue{
+    position: relative;
+    background-color:blue;
+    right: 40px;
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transition: right 0.5s ease-in-out 0s;
+
+}
+.c-red{
+    position: relative;
+    background-color:red;
+    right: 40px;
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transition: right 0.5s ease-in-out 0s;
+
+}
+.c-grey{
+    position: relative;
+    background-color: grey;
+    right: 40px;
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transition: right 0.5s ease-in-out 0s;
+
+}
+.c-green:hover{
+    right:-60px;
+}
+.c-blue:hover{
+    right:-60px;
+}
+.c-grey:hover{
+    right:-60px;
+}
+.c-red:hover{
+    right:-60px;
+}

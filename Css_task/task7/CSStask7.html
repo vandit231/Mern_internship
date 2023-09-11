@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        background-color:teal; /* Pinkish Red Background */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        color: white;
+      }
+
+      #container {
+        background-color:lavender ;/* Dark Red Square Background */
+        padding: 20px;
+        border-radius: 10px;
+        text-align: center;
+        width: 30%;
+      }
+
+      #container label {
+        color:darkgoldenrod;
+        font-size: 14px; /* Reduced font size */
+      }
+
+      #container input,
+      #container select,
+      #container textarea {
+        width: 30%;
+   
+        border: none;
+        border-radius: 5px;
+      }
+
+      #container .gender-label {
+        margin-right: 10px;
+        color: white;
+      }
+
+      #container button {
+        background-color:teal; /* Pinkish Red Button */
+        color: white;
+        padding: 15px 30px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        height: 30%;
+        width: 30%;
+      }
+      .flex {
+        display: flex;
+        flex-direction: row;
+        margin-top: 10px;
+      }
+      #name{
+        margin-left: 30%;
+      }
+      #email{
+        margin-left: 30%;
+      }
+      #password{
+        margin-left: 25%;
+      }
+      #phone{
+        margin-left: 20%;
+      }
+      .gender-input{
+        margin-left: 140px;
+      }
+      #language{
+        margin-left: 25%;
+      }
+      #zipcode{
+        margin-left: 25%;
+      }
+      #about{
+        margin-left: 28%;
+      }
+      .button{
+        margin-top: 10px;
+        margin-left: 20px;
+      }
+
+  
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <form>
+        <div class="flex">
+          <label for="name">Name:</label>
+          <input type="text" id="name" placeholder="Your Name" />
+        </div>
+
+        <div class="flex">
+          <label for="email">Email:</label>
+          <input type="email" id="email" placeholder="Your Email" />
+        </div>
+
+        <div class="flex">
+          <label for="password">Password:</label>
+          <input type="password" id="password" />
+        </div>
+
+        <div class="flex">
+          <label for="phone">Phone Number:</label>
+          <input type="tel" id="phone" />
+        </div>
+
+        <div class="flex">
+          <span class="gender-label">Gender:</span>
+          <div class="flex gender-input">
+            <input type="radio" id="male" name="gender" value="male" />
+            <label for="male">Male</label>
+
+            <input type="radio" id="female" name="gender" value="female" />
+            <label for="female">Female</label>
+
+            <input type="radio" id="other" name="gender" value="other" />
+            <label for="other">Other</label>
+          </div>
+        </div>
+
+        <div class="flex">
+          <label for="language">Language:</label>
+          <select id="language">
+            <option value="select">Select language</option>
+            <option value="english">English</option>
+            <option value="spanish">Spanish</option>
+            <option value="french">French</option>
+          </select>
+        </div>
+
+        <div class="flex">
+          <label for="zipcode">Zip Code:</label>
+          <input type="text" id="zipcode" />
+        </div>
+
+        <div class="flex">
+          <label for="about">About:</label>
+          <textarea id="about" placeholder="Write about yourself"></textarea>
+        </div>
+        <button type="submit" class="button">Register</button>
+      </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,19 @@
+table{
+    width: 50%;
+    border-collapse: collapse;
+}
+td{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+}
+.heading{
+    background-color:#04AA6D;
+    color: white;
+}
+tr:nth-child(even){
+    background-color: grey;
+}
+tr:nth-child(odd){
+    background-color: white;
+}
